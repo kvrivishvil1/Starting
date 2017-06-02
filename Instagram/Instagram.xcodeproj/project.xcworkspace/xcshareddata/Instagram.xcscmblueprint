@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "76DDF23D2B384A494582F37347669173DC38EDC7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "76DDF23D2B384A494582F37347669173DC38EDC7" : 9223372036854775807,
+    "2795710D04D7B816EC4805C38A3F9B859AE7AF5A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "50CBB028-209F-4357-B9A7-58EE27E37B36",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "76DDF23D2B384A494582F37347669173DC38EDC7" : "Starting\/",
+    "2795710D04D7B816EC4805C38A3F9B859AE7AF5A" : "UG-Lemondo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Instagram",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Instagram\/Instagram.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/geowarsong\/UG-Lemondo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2795710D04D7B816EC4805C38A3F9B859AE7AF5A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kvrivishvil1\/Starting.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "76DDF23D2B384A494582F37347669173DC38EDC7"
+    }
+  ]
+}

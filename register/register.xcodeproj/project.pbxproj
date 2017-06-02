@@ -14,6 +14,9 @@
 		73C33CA21EDDB5360036C141 /* firstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C33CA11EDDB5360036C141 /* firstScreen.swift */; };
 		73C33CA51EDDBB500036C141 /* signUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C33CA41EDDBB500036C141 /* signUpScreen.swift */; };
 		73C33CA91EDDBB940036C141 /* incorrectSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C33CA81EDDBB940036C141 /* incorrectSignIn.swift */; };
+		73C33CB31EDEE14A0036C141 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C33CB21EDEE14A0036C141 /* User.swift */; };
+		73C33CB51EDEE27E0036C141 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C33CB41EDEE27E0036C141 /* data.swift */; };
+		73C33CB71EDEEC2B0036C141 /* successfullSignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C33CB61EDEEC2B0036C141 /* successfullSignup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		73C33CA11EDDB5360036C141 /* firstScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstScreen.swift; sourceTree = "<group>"; };
 		73C33CA41EDDBB500036C141 /* signUpScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpScreen.swift; sourceTree = "<group>"; };
 		73C33CA81EDDBB940036C141 /* incorrectSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = incorrectSignIn.swift; sourceTree = "<group>"; };
+		73C33CB21EDEE14A0036C141 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		73C33CB41EDEE27E0036C141 /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		73C33CB61EDEEC2B0036C141 /* successfullSignup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = successfullSignup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		73C33C8E1EDDB1320036C141 /* register */ = {
 			isa = PBXGroup;
 			children = (
+				73C33CB81EDEEC320036C141 /* data */,
 				73C33CA31EDDB53C0036C141 /* controllers */,
 				73C33C8F1EDDB1320036C141 /* AppDelegate.swift */,
 				73C33C931EDDB1330036C141 /* Main.storyboard */,
@@ -74,8 +81,18 @@
 				73C33CA41EDDBB500036C141 /* signUpScreen.swift */,
 				73C33CA11EDDB5360036C141 /* firstScreen.swift */,
 				73C33CA81EDDBB940036C141 /* incorrectSignIn.swift */,
+				73C33CB61EDEEC2B0036C141 /* successfullSignup.swift */,
 			);
 			name = controllers;
+			sourceTree = "<group>";
+		};
+		73C33CB81EDEEC320036C141 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				73C33CB21EDEE14A0036C141 /* User.swift */,
+				73C33CB41EDEE27E0036C141 /* data.swift */,
+			);
+			name = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				73C33CA21EDDB5360036C141 /* firstScreen.swift in Sources */,
+				73C33CB71EDEEC2B0036C141 /* successfullSignup.swift in Sources */,
+				73C33CB51EDEE27E0036C141 /* data.swift in Sources */,
 				73C33C901EDDB1320036C141 /* AppDelegate.swift in Sources */,
 				73C33CA91EDDBB940036C141 /* incorrectSignIn.swift in Sources */,
+				73C33CB31EDEE14A0036C141 /* User.swift in Sources */,
 				73C33CA51EDDBB500036C141 /* signUpScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +339,7 @@
 				73C33CA01EDDB1330036C141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
