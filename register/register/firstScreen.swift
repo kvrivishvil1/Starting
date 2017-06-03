@@ -12,8 +12,16 @@ class firstScreen: UIViewController {
     
     var info = Data()
     
+    @IBOutlet weak var signInButton: UIButton!
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        signInButton.layer.cornerRadius = 20
+        signInButton.layer.masksToBounds = true
+        
+    }
     
     @IBAction func signUp(_ sender: UIButton) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "xxxsignUpScreen") as? signUpScreen
@@ -25,18 +33,25 @@ class firstScreen: UIViewController {
         if(usernameField.text!.isEmpty || passwordField.text!.isEmpty) {
             print("incorrect input")
             return
-        }
-        
-        if(info.isCorrect(usernameField.text!, passwordField.text!)) {
-            let vc = storyboard?.instantiateViewController(withIdentifier: "xxxsuccessfullSignup") as? successfullSignup
-            vc?.lowerText = usernameField.text
-            navigationController?.pushViewController(vc!, animated: true)
         } else {
-            let vc = storyboard?.instantiateViewController(withIdentifier: "xxxincorrectSignIn") as? incorrectSignIn
-            vc?.top = "Incorrect"
-            vc?.lower = "Username or Password"
-            navigationController?.pushViewController(vc!, animated: true)
+            if(info.isCorrect(usernameField.text!, passwordField.text!)) {
+                let vc = storyboard?.instantiateViewController(withIdentifier: "xxxMainController") as? mainController
+                navigationController?.pushViewController(vc!, animated: true)
+            } else {
+                print("x")
+            }
         }
     }
     
+}
+
+extension firstScreen: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if(textField.tag == 0) {
+            self.passwordField.becomeFirstResponder()
+        } else {
+            signIn(signInButton)
+        }
+        return true
+    }
 }

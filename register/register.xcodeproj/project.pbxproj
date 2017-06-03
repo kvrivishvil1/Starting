@@ -9,29 +9,35 @@
 /* Begin PBXBuildFile section */
 		73C33C901EDDB1320036C141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C33C8F1EDDB1320036C141 /* AppDelegate.swift */; };
 		73C33C951EDDB1330036C141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C33C931EDDB1330036C141 /* Main.storyboard */; };
-		73C33C971EDDB1330036C141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C33C961EDDB1330036C141 /* Assets.xcassets */; };
 		73C33C9A1EDDB1330036C141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C33C981EDDB1330036C141 /* LaunchScreen.storyboard */; };
 		73C33CA21EDDB5360036C141 /* firstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C33CA11EDDB5360036C141 /* firstScreen.swift */; };
 		73C33CA51EDDBB500036C141 /* signUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C33CA41EDDBB500036C141 /* signUpScreen.swift */; };
-		73C33CA91EDDBB940036C141 /* incorrectSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C33CA81EDDBB940036C141 /* incorrectSignIn.swift */; };
 		73C33CB31EDEE14A0036C141 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C33CB21EDEE14A0036C141 /* User.swift */; };
 		73C33CB51EDEE27E0036C141 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C33CB41EDEE27E0036C141 /* data.swift */; };
-		73C33CB71EDEEC2B0036C141 /* successfullSignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C33CB61EDEEC2B0036C141 /* successfullSignup.swift */; };
+		73E89AFD1EE2983E0020DFC3 /* NewsFeedUSer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89AFC1EE2983E0020DFC3 /* NewsFeedUSer.swift */; };
+		73E89B0E1EE2988A0020DFC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E89B021EE2988A0020DFC3 /* Assets.xcassets */; };
+		73E89B121EE2988A0020DFC3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89B081EE2988A0020DFC3 /* CollectionViewCell.swift */; };
+		73E89B141EE2988A0020DFC3 /* mainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89B0A1EE2988A0020DFC3 /* mainController.swift */; };
+		73E89B151EE2988A0020DFC3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89B0B1EE2988A0020DFC3 /* TableViewCell.swift */; };
+		73E89B181EE299180020DFC3 /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73E89B171EE298970020DFC3 /* Billabong.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		73C33C8C1EDDB1320036C141 /* register.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = register.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C33C8F1EDDB1320036C141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73C33C941EDDB1330036C141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		73C33C961EDDB1330036C141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73C33C991EDDB1330036C141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73C33C9B1EDDB1330036C141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73C33CA11EDDB5360036C141 /* firstScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstScreen.swift; sourceTree = "<group>"; };
 		73C33CA41EDDBB500036C141 /* signUpScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpScreen.swift; sourceTree = "<group>"; };
-		73C33CA81EDDBB940036C141 /* incorrectSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = incorrectSignIn.swift; sourceTree = "<group>"; };
 		73C33CB21EDEE14A0036C141 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		73C33CB41EDEE27E0036C141 /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
-		73C33CB61EDEEC2B0036C141 /* successfullSignup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = successfullSignup.swift; sourceTree = "<group>"; };
+		73E89AFC1EE2983E0020DFC3 /* NewsFeedUSer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedUSer.swift; sourceTree = "<group>"; };
+		73E89B021EE2988A0020DFC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Instagram/Assets.xcassets; sourceTree = "<group>"; };
+		73E89B081EE2988A0020DFC3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = Instagram/CollectionViewCell.swift; sourceTree = "<group>"; };
+		73E89B0A1EE2988A0020DFC3 /* mainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mainController.swift; path = Instagram/mainController.swift; sourceTree = "<group>"; };
+		73E89B0B1EE2988A0020DFC3 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = Instagram/TableViewCell.swift; sourceTree = "<group>"; };
+		73E89B171EE298970020DFC3 /* Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Billabong.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +70,12 @@
 		73C33C8E1EDDB1320036C141 /* register */ = {
 			isa = PBXGroup;
 			children = (
-				73C33CB81EDEEC320036C141 /* data */,
 				73C33CA31EDDB53C0036C141 /* controllers */,
+				73C33CB81EDEEC320036C141 /* data */,
+				73E89B171EE298970020DFC3 /* Billabong.ttf */,
+				73E89B021EE2988A0020DFC3 /* Assets.xcassets */,
 				73C33C8F1EDDB1320036C141 /* AppDelegate.swift */,
 				73C33C931EDDB1330036C141 /* Main.storyboard */,
-				73C33C961EDDB1330036C141 /* Assets.xcassets */,
 				73C33C981EDDB1330036C141 /* LaunchScreen.storyboard */,
 				73C33C9B1EDDB1330036C141 /* Info.plist */,
 			);
@@ -78,10 +85,11 @@
 		73C33CA31EDDB53C0036C141 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				73E89B081EE2988A0020DFC3 /* CollectionViewCell.swift */,
+				73E89B0A1EE2988A0020DFC3 /* mainController.swift */,
+				73E89B0B1EE2988A0020DFC3 /* TableViewCell.swift */,
 				73C33CA41EDDBB500036C141 /* signUpScreen.swift */,
 				73C33CA11EDDB5360036C141 /* firstScreen.swift */,
-				73C33CA81EDDBB940036C141 /* incorrectSignIn.swift */,
-				73C33CB61EDEEC2B0036C141 /* successfullSignup.swift */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -91,6 +99,7 @@
 			children = (
 				73C33CB21EDEE14A0036C141 /* User.swift */,
 				73C33CB41EDEE27E0036C141 /* data.swift */,
+				73E89AFC1EE2983E0020DFC3 /* NewsFeedUSer.swift */,
 			);
 			name = data;
 			sourceTree = "<group>";
@@ -155,8 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				73C33C9A1EDDB1330036C141 /* LaunchScreen.storyboard in Resources */,
-				73C33C971EDDB1330036C141 /* Assets.xcassets in Resources */,
+				73E89B0E1EE2988A0020DFC3 /* Assets.xcassets in Resources */,
 				73C33C951EDDB1330036C141 /* Main.storyboard in Resources */,
+				73E89B181EE299180020DFC3 /* Billabong.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,10 +178,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				73C33CA21EDDB5360036C141 /* firstScreen.swift in Sources */,
-				73C33CB71EDEEC2B0036C141 /* successfullSignup.swift in Sources */,
+				73E89AFD1EE2983E0020DFC3 /* NewsFeedUSer.swift in Sources */,
+				73E89B121EE2988A0020DFC3 /* CollectionViewCell.swift in Sources */,
 				73C33CB51EDEE27E0036C141 /* data.swift in Sources */,
 				73C33C901EDDB1320036C141 /* AppDelegate.swift in Sources */,
-				73C33CA91EDDBB940036C141 /* incorrectSignIn.swift in Sources */,
+				73E89B151EE2988A0020DFC3 /* TableViewCell.swift in Sources */,
+				73E89B141EE2988A0020DFC3 /* mainController.swift in Sources */,
 				73C33CB31EDEE14A0036C141 /* User.swift in Sources */,
 				73C33CA51EDDBB500036C141 /* signUpScreen.swift in Sources */,
 			);

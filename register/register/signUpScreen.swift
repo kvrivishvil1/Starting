@@ -28,10 +28,11 @@ class signUpScreen: UIViewController {
             print("incorrect input")
             return
         }
+
+        
         let res:Bool = info.add(email.text!, username.text!, password.text!, address.text!)
         if(res) {
-            let vc = storyboard?.instantiateViewController(withIdentifier: "xxxsuccessfullSignup") as? successfullSignup
-            vc?.lowerText = username.text
+            let vc = storyboard?.instantiateViewController(withIdentifier: "xxxMainController") as? mainController
             navigationController?.pushViewController(vc!, animated: true)
         } else {
             print("allready exists")

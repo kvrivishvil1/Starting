@@ -43,6 +43,7 @@ class mainController: UIViewController {
 
 } // ClassEnd
 
+// MARK: - UICollectionViewDelegate & UICollectionViewDataSource
 extension mainController: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

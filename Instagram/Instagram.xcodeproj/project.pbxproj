@@ -13,9 +13,9 @@
 		738752391EE19DEE005F521C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738752371EE19DEE005F521C /* Main.storyboard */; };
 		7387523B1EE19DEE005F521C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7387523A1EE19DEE005F521C /* Assets.xcassets */; };
 		7387523E1EE19DEE005F521C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7387523C1EE19DEE005F521C /* LaunchScreen.storyboard */; };
-		738752471EE1A458005F521C /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 738752491EE1A458005F521C /* Billabong.ttf */; };
 		7387524D1EE1B124005F521C /* mainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387524C1EE1B124005F521C /* mainController.swift */; };
 		738752511EE1B1BE005F521C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738752501EE1B1BE005F521C /* TableViewCell.swift */; };
+		73E89AFB1EE1DB8C0020DFC3 /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73E89AFA1EE1DB8C0020DFC3 /* Billabong.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		7387523A1EE19DEE005F521C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7387523D1EE19DEE005F521C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7387523F1EE19DEE005F521C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		738752481EE1A458005F521C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/Billabong.ttf; sourceTree = "<group>"; };
 		7387524C1EE1B124005F521C /* mainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainController.swift; sourceTree = "<group>"; };
 		738752501EE1B1BE005F521C /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		73E89AFA1EE1DB8C0020DFC3 /* Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Billabong.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,6 @@
 		730BBCD31EE1B67E00DA1C7C /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				738752491EE1A458005F521C /* Billabong.ttf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -91,6 +90,7 @@
 				730BBCD71EE1B6E100DA1C7C /* data */,
 				730BBCD41EE1B6A300DA1C7C /* controllers */,
 				730BBCD31EE1B67E00DA1C7C /* Fonts */,
+				73E89AFA1EE1DB8C0020DFC3 /* Billabong.ttf */,
 				738752331EE19DEE005F521C /* AppDelegate.swift */,
 				738752371EE19DEE005F521C /* Main.storyboard */,
 				7387523A1EE19DEE005F521C /* Assets.xcassets */,
@@ -162,7 +162,7 @@
 				7387523E1EE19DEE005F521C /* LaunchScreen.storyboard in Resources */,
 				7387523B1EE19DEE005F521C /* Assets.xcassets in Resources */,
 				738752391EE19DEE005F521C /* Main.storyboard in Resources */,
-				738752471EE1A458005F521C /* Billabong.ttf in Resources */,
+				73E89AFB1EE1DB8C0020DFC3 /* Billabong.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,15 +198,6 @@
 				7387523D1EE19DEE005F521C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		738752491EE1A458005F521C /* Billabong.ttf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				738752481EE1A458005F521C /* Base */,
-			);
-			name = Billabong.ttf;
-			path = "../../../UG-Lemondo/TableViewApp/TableView/TableView/Resources/Fonts";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
