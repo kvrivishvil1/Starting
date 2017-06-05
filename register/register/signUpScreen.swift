@@ -1,4 +1,4 @@
-//
+    //
 //  signUpScreen.swift
 //  register
 //
@@ -16,6 +16,31 @@ class signUpScreen: UIViewController {
     @IBOutlet weak var address: UITextField!
     @IBOutlet weak var email: UITextField!
     
+    func correctPassword()->Bool {
+        
+        var upperCase = false
+        var lowerCase = false
+        var number = false
+        
+        let x = "1234567890"
+        let up = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        let low = "abcdefghijklmnopqrstuvwxyz"
+        
+        var s:String = password.text!
+        
+        for tempChar in s.unicodeScalars {
+            if x.contains(String(tempChar)) {
+                number = true
+            } else if up.contains(String(tempChar)) {
+                lowerCase = true
+            } else if low.contains(String(tempChar)) {
+                upperCase = true
+            }
+        }
+        
+        return upperCase && lowerCase && number
+    }
+    
     @IBAction func home(_ sender: UIButton) {
         navigationController?.popToRootViewController(animated: true)
     }
@@ -28,15 +53,13 @@ class signUpScreen: UIViewController {
             print("incorrect input")
             return
         }
-
         
-        let res:Bool = info.add(email.text!, username.text!, password.text!, address.text!)
-        if(res) {
-            let vc = storyboard?.instantiateViewController(withIdentifier: "xxxMainController") as? mainController
-            navigationController?.pushViewController(vc!, animated: true)
-        } else {
-            print("allready exists")
+        if(!correctPassword()) {
+            print("password must contains at least one number one uppercase and one lowercase character")
+            return
         }
+        
+        
     }
 
     override func viewDidLoad() {
