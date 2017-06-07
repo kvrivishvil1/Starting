@@ -8,7 +8,7 @@
 
 import UIKit
 
-class mainController: UIViewController {
+class HomeController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var tableView: UITableView!
@@ -44,7 +44,7 @@ class mainController: UIViewController {
 } // ClassEnd
 
 // MARK: - UICollectionViewDelegate & UICollectionViewDataSource
-extension mainController: UICollectionViewDelegate, UICollectionViewDataSource {
+extension HomeController: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return dataObject.count
@@ -65,7 +65,7 @@ extension mainController: UICollectionViewDelegate, UICollectionViewDataSource {
 }
 
 // MARK: - UITableViewDelegate & UITableViewDataSource
-extension mainController: UITableViewDelegate, UITableViewDataSource {
+extension HomeController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }

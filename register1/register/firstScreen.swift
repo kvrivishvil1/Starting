@@ -20,7 +20,7 @@ class firstScreen: UIViewController {
         super.viewDidLoad()
         signInButton.layer.cornerRadius = 20
         signInButton.layer.masksToBounds = true
-        
+        info.add("soso", "Ss", "Ss1", "s")
     }
     
     @IBAction func signUp(_ sender: UIButton) {
@@ -35,7 +35,7 @@ class firstScreen: UIViewController {
             return
         } else {
             if(info.isCorrect(usernameField.text!, passwordField.text!)) {
-                let vc = storyboard?.instantiateViewController(withIdentifier: "xxxViewController") as? ViewController
+                let vc = storyboard?.instantiateViewController(withIdentifier: "xxxInstagramTabBar") as? InstagramTabBar
                 navigationController?.pushViewController(vc!, animated: true)
             } else {
                 

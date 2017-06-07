@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0G7-F7-epd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="X30-W7-Rfo">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -18,7 +18,7 @@
         <scene sceneID="9lh-Cd-AkM">
             <objects>
                 <navigationController navigationBarHidden="YES" id="X30-W7-Rfo" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ghQ-XJ-bvG">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ghQ-XJ-bvG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -30,10 +30,10 @@
             </objects>
             <point key="canvasLocation" x="-2327" y="-1140"/>
         </scene>
-        <!--View Controller-->
+        <!--Instagram Tab Bar-->
         <scene sceneID="VyW-zl-ku2">
             <objects>
-                <tabBarController storyboardIdentifier="xxxViewController" id="0G7-F7-epd" customClass="ViewController" customModule="register" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="xxxInstagramTabBar" id="0G7-F7-epd" customClass="InstagramTabBar" customModule="register" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="MxM-t6-c72">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -312,7 +312,7 @@
         <!--Home-->
         <scene sceneID="hnm-Tu-nKh">
             <objects>
-                <viewController storyboardIdentifier="xxxMainController" id="C1f-Aw-U0p" customClass="mainController" customModule="register" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="xxxHomeController" id="C1f-Aw-U0p" customClass="HomeController" customModule="register" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qck-21-ixm"/>
                         <viewControllerLayoutGuide type="bottom" id="JCM-dE-VLR"/>
