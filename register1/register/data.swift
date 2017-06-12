@@ -51,6 +51,8 @@ class Data {
         obj.password = password
         users.append(obj)
         return true
+        
+       
     }
     
 }
